@@ -17,7 +17,7 @@ public class TheFirstAutotest {
 
     @Test
     void registrationForm() {
-        open ("automation-practice-form");
+        open("/automation-practice-form");
 
         executeJavaScript("document.getElementById('submit').click()");
         executeJavaScript("$('#fixedban').remove()");
