@@ -16,8 +16,8 @@ public class TheFirstAutotest {
     }
 
     @Test
-    void RegistrationForm() {
-        open ("https://demoqa.com/automation-practice-form");
+    void registrationForm() {
+        open ("automation-practice-form");
 
         executeJavaScript("document.getElementById('submit').click()");
         executeJavaScript("$('#fixedban').remove()");
